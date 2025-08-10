@@ -45,7 +45,7 @@ function Card() {
 
     console.log(data)
 
-    const response = await fetch('http://127.0.0.1:8000/edit_image/', {
+    const response = await fetch('https://project-pdf-8ve3.onrender.com/edit_image/', {
       method: "POST",
       body: formData
     })
